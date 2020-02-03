@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+java -cp "/app/.apt/usr/share/java/bcprov.jar:/app/.apt/usr/share/java/commons-lang3.jar:/app/.apt/usr/share/pdftk/pdftk.jar" com.gitlab.pdftk_java.pdftk "$@"
